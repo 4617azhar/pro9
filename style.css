@@ -1,0 +1,59 @@
+body {
+    background: url("bac.png");
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+
+}
+
+.login h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0;
+    color: blue;
+}
+
+.login p {
+    font-size: 20px;
+    margin: 5px 0;
+
+}
+
+.login input {
+    width: 100%;
+    border-radius: 30px;
+    margin: 5px 0;
+    padding: 7px;
+}
+
+
+
+.login button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 7px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+}
+
